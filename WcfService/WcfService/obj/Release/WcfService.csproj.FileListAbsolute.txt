@@ -1,0 +1,7 @@
+C:\Users\K Vijaya Raghavan\source\repos\WcfService\WcfService\bin\WcfService.dll.config
+C:\Users\K Vijaya Raghavan\source\repos\WcfService\WcfService\bin\WcfService.dll
+C:\Users\K Vijaya Raghavan\source\repos\WcfService\WcfService\bin\WcfService.pdb
+C:\Users\K Vijaya Raghavan\source\repos\WcfService\WcfService\obj\Release\WcfService.csproj.AssemblyReference.cache
+C:\Users\K Vijaya Raghavan\source\repos\WcfService\WcfService\obj\Release\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\K Vijaya Raghavan\source\repos\WcfService\WcfService\obj\Release\WcfService.dll
+C:\Users\K Vijaya Raghavan\source\repos\WcfService\WcfService\obj\Release\WcfService.pdb

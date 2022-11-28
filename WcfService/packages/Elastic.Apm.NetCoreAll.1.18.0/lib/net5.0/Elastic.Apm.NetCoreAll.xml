@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Elastic.Apm.NetCoreAll</name>
+    </assembly>
+    <members>
+        <member name="M:Elastic.Apm.NetCoreAll.ApmMiddlewareExtension.UseAllElasticApm(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds the Elastic APM Middleware to the ASP.NET Core pipeline and enables
+            <see cref="T:Elastic.Apm.DiagnosticSource.HttpDiagnosticsSubscriber" />,
+            <see cref="T:Elastic.Apm.EntityFrameworkCore.EfCoreDiagnosticsSubscriber" />,
+            <see cref="T:Elastic.Apm.SqlClient.SqlClientDiagnosticSubscriber"/>,
+            <see cref="T:Elastic.Apm.Elasticsearch.ElasticsearchDiagnosticsSubscriber"/>.
+            <see cref="T:Elastic.Apm.GrpcClient.GrpcClientDiagnosticSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.ServiceBus.AzureMessagingServiceBusDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.ServiceBus.MicrosoftAzureServiceBusDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.Storage.AzureBlobStorageDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.Storage.AzureQueueStorageDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.Storage.AzureFileShareStorageDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.CosmosDb.AzureCosmosDbDiagnosticsSubscriber"/>,
+            and <see cref="T:Elastic.Apm.MongoDb.MongoDbDiagnosticsSubscriber"/>.
+            This method turns on ASP.NET Core monitoring with every other related monitoring components, for example the agent
+            will also automatically trace outgoing HTTP requests and database statements.
+            </summary>
+            <returns>The application builder instance</returns>
+            <param name="builder">Builder.</param>
+            <param name="configuration">
+            You can optionally pass the <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> of your application to the Elastic APM Agent.
+            The agent reads agent-related configuration from the <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> instance, and uses it to configure the agent.
+            If no <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> is provided, the agent reads agent-related configuration from environment variables.
+            </param>
+        </member>
+        <member name="M:Elastic.Apm.NetCoreAll.HostBuilderExtensions.UseAllElasticApm(Microsoft.Extensions.Hosting.IHostBuilder)">
+            <summary>
+            Register Elastic APM .NET Agent with components in the container and enables
+            <see cref="T:Elastic.Apm.DiagnosticSource.HttpDiagnosticsSubscriber" />,
+            <see cref="T:Elastic.Apm.AspNetCore.DiagnosticListener.AspNetCoreDiagnosticSubscriber" />,
+            <see cref="T:Elastic.Apm.EntityFrameworkCore.EfCoreDiagnosticsSubscriber" />,
+            <see cref="T:Elastic.Apm.SqlClient.SqlClientDiagnosticSubscriber"/>,
+            <see cref="T:Elastic.Apm.Elasticsearch.ElasticsearchDiagnosticsSubscriber"/>.
+            <see cref="T:Elastic.Apm.GrpcClient.GrpcClientDiagnosticSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.ServiceBus.AzureMessagingServiceBusDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.ServiceBus.MicrosoftAzureServiceBusDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.Storage.AzureBlobStorageDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.Storage.AzureQueueStorageDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.Storage.AzureFileShareStorageDiagnosticsSubscriber"/>,
+            <see cref="T:Elastic.Apm.Azure.CosmosDb.AzureCosmosDbDiagnosticsSubscriber"/>,
+            and <see cref="T:Elastic.Apm.MongoDb.MongoDbDiagnosticsSubscriber"/>.
+            </summary>
+            <param name="builder">Builder.</param>
+        </member>
+    </members>
+</doc>

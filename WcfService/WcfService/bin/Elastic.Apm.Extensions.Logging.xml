@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Elastic.Apm.Extensions.Logging</name>
+    </assembly>
+    <members>
+        <member name="T:Elastic.Apm.Extensions.Logging.ApmErrorLogger">
+            <summary>
+            Captures logs on error level as APM errors
+            </summary>
+        </member>
+    </members>
+</doc>

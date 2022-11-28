@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Elastic.Apm.SqlClient</name>
+    </assembly>
+    <members>
+        <member name="T:Elastic.Apm.SqlClient.SqlClientDiagnosticSubscriber">
+            <summary>
+            Subscribes to diagnostics events from System.Data.SqlClient and Microsoft.Data.SqlClient
+            </summary>
+        </member>
+        <member name="M:Elastic.Apm.SqlClient.SqlClientDiagnosticSubscriber.Subscribe(Elastic.Apm.IApmAgent)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
